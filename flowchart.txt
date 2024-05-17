@@ -1,0 +1,53 @@
+1. Importing the Packages
+2. Loading the Dataset
+3. Data Processing
+	- Dropping the duplicates
+	- Cleaning the Text
+		- Cleaning the emojis
+		- Remove the Punctuations, links, mention
+	- Cleaning the hashtags
+	- filtering out the special characters
+	- removing all multiple spaces
+    - Keras Based Tokenization
+4. Visualization using Seaborn and Matplotlib
+5. Tokenization using 
+	- Tfidf Vectorizer
+    - Keras Tokenizer
+6. Feature Selection 
+7. Splitting the data to train and test
+8. Building the model
+
+    - Machine Learning
+        - Random Forest
+        - SVM
+        - KNN
+        - XGBoost Classifier 
+        - RF + DT
+        - XGB + DT
+        - SVM + DT
+        - RF + XGB
+        - RF + SVM
+        - XGB + SVM
+        - SMOTE + Systematic Analysis + Sentiment FEature(RF + SVM + XGB)
+        
+    - Deep Learning
+    
+        - LSTM
+        - LSTM + GRU
+        
+10. Training and Building the model
+11. Dumping the Model
+12. Flask Framework with Sqlite for signup and signin
+13. Importing the packages
+14. Exploring the dataset
+15. Processing and training the data 
+16. User gives input 
+17. The given input is translated and preprocessed for prediction
+18. Trained model is used for prediction
+19. Final outcome is displayed through frontend
+
+Extension:
+
+In the base paper, the author mentioned to use different ML for analysis the dataset, Got 90% of accuracy,
+as an extension we applied LSTM and LSTM + GRU model along with LDA model for Topic Modeling the input
+The build model is used to predict and Topic Modelling for user input in the Flask Framework.
